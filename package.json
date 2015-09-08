@@ -1,0 +1,25 @@
+{
+  "name": "single-instance",
+  "version": "0.1.0",
+  "description": "Check if an instance of the current application is running or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pierrefourgeaud/node-single-instance.git"
+  },
+  "keywords": [
+    "single",
+    "instance",
+    "singleton",
+    "security"
+  ],
+  "author": "Pierre Fourgeaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierrefourgeaud/node-single-instance/issues"
+  },
+  "homepage": "https://github.com/pierrefourgeaud/node-single-instance#readme"
+}
