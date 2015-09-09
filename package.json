@@ -1,8 +1,11 @@
 {
   "name": "single-instance",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Check if an instance of the current application is running or not.",
   "main": "index.js",
+  "dependencies": {
+    "rsvp": "^3.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

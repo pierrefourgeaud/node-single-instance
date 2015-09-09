@@ -1,2 +1,1 @@
-single-instance
-==============# node-single-instance
+# node-single-instance
