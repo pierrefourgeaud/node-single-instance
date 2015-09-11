@@ -20,7 +20,7 @@
     "security"
   ],
   "author": "Pierre Fourgeaud",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/pierrefourgeaud/node-single-instance/issues"
   },
