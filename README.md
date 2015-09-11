@@ -12,23 +12,27 @@ While the few other packages with the same purpose are either complicated (need 
 
 * Install it:
 
-    npm install single-instance
+```
+npm install single-instance
+```
 
 * Use it !
 
-    var SingleInstance = require('single-instance');
+```javascript
+var SingleInstance = require('single-instance');
 
-    var locker = new SingleInstance('my-app-name');
+var locker = new SingleInstance('my-app-name');
 
-    locker.lock()
-    .then(function() {
-      // We just locked our application,
-      // now we can do what we want !
-    })
-    .catch(function(err) {
-      console.log(err);
-      // Quit the application
-    })
+locker.lock()
+.then(function() {
+  // We just locked our application,
+  // now we can do what we want !
+})
+.catch(function(err) {
+  console.log(err);
+  // Quit the application
+})
+```
 
 ## Support
 
